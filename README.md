@@ -1,6 +1,6 @@
 # AI Advantage Skills
 
-Reusable skills for the AI Advantage Workshop: learn from how you already work with AI, and communicate ideas clearly to the people who need to act on them.
+Reusable skills for the AI Advantage Workshop: learn from how you already work with AI, communicate ideas clearly, and turn your professional process into a reusable skill.
 
 ## The skills
 
@@ -8,8 +8,9 @@ Reusable skills for the AI Advantage Workshop: learn from how you already work w
 | --- | --- |
 | [Discover my skills](skills/discover-my-skills/SKILL.md) | Reads accessible chat sessions, finds recurring workflows and feedback, lets you choose a grouping, and creates your reusable skills with source references. |
 | [Stakeholder storytelling](skills/stakeholder-storytelling/SKILL.md) | Clarifies the stakeholder and intended outcome, asks for your visual references, and develops presentations or dashboards through explanatory visuals and one or two prototype frames. |
+| [Build my skill](skills/build-my-skill/SKILL.md) | Uses profession-specific conversation to understand an existing process or desired outcome, fills gaps together, creates the skill, and installs it where supported. |
 
-These are early drafts. Both skills pass structural validation, and installation from this repository into an isolated Codex project was verified with the Skills CLI. End-to-end use in an attendee's ChatGPT account has not yet been verified. Two local stakeholder presentation prototypes are awaiting visual feedback.
+These are early drafts. All three skills pass structural validation. Installation of the first two from this repository into an isolated Codex project was verified with the Skills CLI; the builder is a new draft awaiting real-use feedback. End-to-end use in an attendee's ChatGPT account has not yet been verified. The first two local presentation studies received positive visual feedback. Their Editorial Ownership direction is now a reusable optional style; a third composition is available for further local review.
 
 ## Install from GitHub
 
@@ -31,7 +32,7 @@ Or download the source with Git:
 git clone https://github.com/nopefallacy/ai-advantage-skills.git
 ```
 
-Cloning downloads the files; it does not activate them in an AI app. Use your app's supported skill installation process and keep each skill's `references` folder with its `SKILL.md`.
+Cloning downloads the files; it does not activate them in an AI app. Use your app's supported skill installation process and keep each skill's supporting folders, including `references` and `styles`, with its `SKILL.md`.
 
 The `npx skills` command uses the existing Skills CLI to fetch this GitHub repository. This library does not need its own npm publication for that command to work.
 
@@ -55,8 +56,12 @@ The npm package contains skill instructions and references, with no install hook
 
 Stakeholder storytelling asks for your screenshots, sample deck, brand guidance, written style description, or another available skill. Its editorial dots, halftone, pixels, and geometric treatments are optional directions. The content and stakeholder determine the visual explanation; the style makes that explanation clear and coherent.
 
+### Included style
+
+[Editorial Ownership](skills/stakeholder-storytelling/styles/editorial-ownership/STYLE.md) captures the approved light and dark treatments, typography, halftone diagrams, composition options, and motion signature. Its `tokens.css` provides optional scoped values for HTML. Other user references remain welcome.
+
 ## Source material and scope
 
 The library contains reusable instructions. Attendees' conversations and generated personal skills stay in their own output. Reference images used during design review are not bundled here.
 
-Additional workshop skills will be developed separately. This release contains only the two skills listed above.
+Additional workshop skills will be developed separately. This release contains the three skills listed above. The general day-to-day output skill remains for a later discussion.

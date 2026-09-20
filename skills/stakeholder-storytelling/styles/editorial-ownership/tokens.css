@@ -1,0 +1,37 @@
+/* Optional HTML tokens. Font files and layout are deliberately not bundled. */
+[data-style="editorial-ownership"] {
+  --eo-ground: #eeeee6;
+  --eo-ink: #202326;
+  --eo-secondary: #64675e;
+  --eo-accent: #393cf5;
+  --eo-rule: #20232630;
+  --eo-grid: #adb1a4;
+  --eo-sans: "Outfit", sans-serif;
+  --eo-mono: "JetBrains Mono", monospace;
+  --eo-emphasis: Georgia, serif;
+  --eo-canvas-width: 1440;
+  --eo-canvas-height: 810;
+  --eo-inset-x: 66px;
+  --eo-inset-y: 53px;
+  --eo-headline: 88px;
+  --eo-body: 23px;
+  --eo-support: 17px;
+  --eo-annotation: 13px;
+  --eo-settle: cubic-bezier(.22, 1, .36, 1);
+  --eo-move: cubic-bezier(.65, 0, .35, 1);
+  --eo-motion-duration: 600ms;
+}
+[data-style="editorial-ownership"][data-tone="dark"],
+[data-style="editorial-ownership"] [data-tone="dark"] {
+  --eo-ground: #181c1b;
+  --eo-ink: #eeeee6;
+  --eo-secondary: #b8bfb0;
+  --eo-accent: #bacd89;
+  --eo-rule: #e8eed82b;
+  --eo-grid: #788768;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-style="editorial-ownership"] {
+    --eo-motion-duration: 0s;
+  }
+}

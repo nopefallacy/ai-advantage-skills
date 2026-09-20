@@ -29,9 +29,13 @@ Inspect supplied references. Briefly explain the specific qualities you would ca
 
 Read [references/editorial-dot-directions.md](references/editorial-dot-directions.md) only when the user selects or asks about the optional dotted, halftone, pixel, or geometric direction. Do not silently apply it to everyone. If another skill is requested, read it when available and apply it within the user's outcome and format; disclose a missing dependency rather than pretending to use it.
 
+For a ready art direction, use the optional [styles catalogue](styles/README.md). The approved Editorial Ownership preset includes a concrete visual specification and reusable CSS tokens. Ask whether it fits when the person has not selected a style. Keep style resources distinct from references about visual reasoning and delivery.
+
 ## Design the explanation before the surface
 
 Identify the central message and the evidence needed to support it. Give each slide, scene, or dashboard section a specific job in that explanation. Select the story's length and structure from its content and setting rather than filling a fixed slide count.
+
+Vary composition and visual form as the explanatory job changes. Do not turn every idea into the same headline-left, diagram-right layout or a repeated list. Keep the selected style coherent through typography, palette, spacing, and annotation while allowing a process, comparison, decision, and closing statement to have distinct compositions. Novelty should clarify the idea rather than become a reason for arbitrary changes.
 
 For each meaningful visual, establish:
 
