@@ -1,0 +1,14 @@
+{
+  "name": "ai-advantage-skills",
+  "version": "0.1.0-draft.1",
+  "description": "AI Advantage Workshop skills for discovering reusable workflows and stakeholder visual storytelling.",
+  "files": ["skills/", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nopefallacy/ai-advantage-skills.git"
+  },
+  "homepage": "https://github.com/nopefallacy/ai-advantage-skills#readme",
+  "bugs": {"url": "https://github.com/nopefallacy/ai-advantage-skills/issues"},
+  "keywords": ["agent-skills", "workflows", "presentations", "visual-storytelling"],
+  "publishConfig": {"access": "public", "tag": "draft"}
+}
