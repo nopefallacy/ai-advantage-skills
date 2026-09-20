@@ -10,7 +10,7 @@ Reusable skills for the AI Advantage Workshop: learn from how you already work w
 | [Stakeholder storytelling](skills/stakeholder-storytelling/SKILL.md) | Clarifies the stakeholder and intended outcome, asks for your visual references, and develops presentations or dashboards through explanatory visuals and one or two prototype frames. |
 | [Build my skill](skills/build-my-skill/SKILL.md) | Uses profession-specific conversation to understand an existing process or desired outcome, fills gaps together, creates the skill, and installs it where supported. |
 
-These are early drafts. All three skills pass structural validation. Installation of the first two from this repository into an isolated Codex project was verified with the Skills CLI; the builder is a new draft awaiting real-use feedback. End-to-end use in an attendee's ChatGPT account has not yet been verified. The first two local presentation studies received positive visual feedback. Their Editorial Ownership direction is now a reusable optional style; a third composition is available for further local review.
+These are early drafts. All three skills pass structural validation. Installation of all three from this repository into isolated Codex projects was verified with the Skills CLI, including the builder reference and presentation style files. The builder is awaiting real-use feedback. End-to-end use in an attendee's ChatGPT account has not yet been verified. The first two local presentation studies received positive visual feedback. Their Editorial Ownership direction is now a reusable optional style; a third composition is available for further local review.
 
 ## Install from GitHub
 
