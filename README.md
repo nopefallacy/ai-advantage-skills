@@ -9,7 +9,7 @@ Reusable skills for the AI Advantage Workshop: learn from how you already work w
 | [Discover my skills](skills/discover-my-skills/SKILL.md) | Reads accessible chat sessions, finds recurring workflows and feedback, lets you choose a grouping, and creates your reusable skills with source references. |
 | [Stakeholder storytelling](skills/stakeholder-storytelling/SKILL.md) | Clarifies the stakeholder and intended outcome, asks for your visual references, and develops presentations or dashboards through explanatory visuals and one or two prototype frames. |
 
-These are early drafts. Skill structure has been validated; end-to-end use in an attendee's ChatGPT account has not yet been verified. The stakeholder skill's first visual prototype is still being developed.
+These are early drafts. Both skills pass structural validation, and installation from this repository into an isolated Codex project was verified with the Skills CLI. End-to-end use in an attendee's ChatGPT account has not yet been verified. Two local stakeholder presentation prototypes are awaiting visual feedback.
 
 ## Install from GitHub
 
